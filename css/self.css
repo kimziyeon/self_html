@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;400;600&display=swap');
+
+html,body{
+
+    margin: 0;
+    font-size: 16px;
+    color: #5E452D;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+h1,h2,h3,p,figure,dl,dt,dd{margin:0;}
+ul,li{list-style: none; margin: 0; padding: 0;}
+a{color:#5E452D; text-decoration: none;}
+img{vertical-align: middle;}
+
+*{box-sizing: border-box;}
+  
+
+
+  header{
+    width: 1530px;
+    margin:20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  header > h1{
+    font-size: 1.5rem;
+    font-family: 'Prociono', serif;
+  }
+  header > h1 > a{}
+  header > nav{}
+  header > nav > a{
+    padding: 10px;
+    font-size: 10x;
+  }
+
+  header > div{}
+  header > div > a{}
+  header > div > a > img{}
+
+
+
+
+
+
+  
+  main{
+    width: 1530px;
+    margin:20px auto;
+  }
+
+.cover{
+  position: relative;
+}
+.cover > img{
+  width: 100%;
+  padding: 0 auto;
+  border-radius: 28px;
+}
+.cover > div{}
+
+.cover > div > b{
+  position: absolute;
+  left: 50%; top:50%;
+  transform: translate(-50%, -85%);
+  text-align: center;
+  margin-bottom: 50px;
+
+  font-size: 52px;
+  font-weight: normal;
+  font-family: 'Prociono', serif;
+  line-height: 70px;
+}
+.cover > div > p{
+  position: absolute;
+  left: 50%; top:50%;
+  transform: translate(-50%, 120%);
+  text-align: center;
+  margin-bottom: 50px;
+
+  font-size: 24px;
+  font-weight: normal;
+}
+
+
+
+article > h1{
+  font-size: 34px;
+  padding: 100px 0 30px 5px;
+  font-family: 'Prociono', serif;
+}
+
+
+
+
+.swiper{
+  overflow: hidden;
+}
+.swiper-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.swiper-slide{
+  flex-shrink: 0;
+  width: 353px;
+  position: relative;
+}
+
+
+.swiper-slide > img{
+  border-radius: 20px;
+  width: 100%;
+}
+
+
+
+.swiper-slide > figcaption{
+  position: absolute;
+  left: 0; top:20%;
+  text-align: center;
+  width: 100%;
+  height: 191px;
+  background-color: #EEE7E1;
+  padding-top: 70px;
+  transition: 0.5s;
+  transform: translateY(-48%);
+  opacity: 0;
+  border-radius: 20px 20px 0 0;
+}
+
+.swiper-slide > figcaption > b{
+  font-family: 'Prociono', serif;
+  font-size: 26px;
+}
+
+.swiper-slide > figcaption > p{
+  padding: 10px;
+}
+
+.swiper-slide > figcaption:hover{
+  opacity: 1;
+}
+
+
+
+
+.mask{
+  margin-top: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mask > p{
+  width: 768px;
+  height: 888px;
+}
+.mask > p > img{
+  width: 100%;
+  border-radius: 28px;
+}
+.mask > div{}
+.mask > div > p:nth-of-type(1){
+  font-size: 52px;
+  font-family: 'Prociono', serif;
+  line-height: 87px;
+}
+.mask > div > p:nth-of-type(2){
+  font-size: 32px;
+  margin: 10px 0px;
+}
+.mask > div > p:nth-of-type(3){
+  font-size: 24px;
+  margin: 100px 0px;
+}
+.mask > div > a{
+  font-size: 32px;
+  font-family: 'Prociono', serif;
+  text-decoration: underline;
+}
+
+
+
+
+.mask-2{
+  margin: 190px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: right;
+}
+.mask-2 > p{
+  width: 768px;
+  height: 888px;
+}
+.mask-2 > p > img{
+  width: 100%;
+  border-radius: 28px;
+}
+.mask-2 > div{}
+.mask-2 > div > p:nth-of-type(1){
+  font-size: 52px;
+  font-family: 'Prociono', serif;
+  line-height: 87px;
+}
+.mask-2 > div > p:nth-of-type(2){
+  font-size: 32px;
+  margin: 10px 0px;
+}
+.mask-2 > div > p:nth-of-type(3){
+  font-size: 24px;
+  margin: 100px 0px;
+}
+.mask-2 > div > a{
+  font-size: 32px;
+  font-family: 'Prociono', serif;
+  text-decoration: underline;
+}
+
+
+
+
+
+footer{
+  width: 100%;
+  background-color: #EEE7E1;
+}
+.bottom{
+  width: 1530px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.bottom > div > h1{
+  font-size: 24px;
+}
+.bottom > div > span{
+  font-size: 12px;
+}
+
+
+.bottom_r{
+  display: flex;
+  align-items: center;
+}
+
+.bottom > .bottom_r > span{
+  padding: 0 30px;
+  font-family: 'Prociono', 'Noto Sans KR';
+  font-size: 16px;
+}
